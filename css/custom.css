@@ -1,0 +1,208 @@
+.ai-s-1x
+{
+    font-size: 1em !important;
+}
+.left{
+	float:left;
+}
+
+.hexagon {
+
+  height:200px;
+  width: 150px;
+  height: 125px;
+  background:red;
+  transform:rotate(120deg);
+  -moz-transform:rotate(120deg);
+  -ms-transform:rotate(120deg);
+  -o-transform:rotate(120deg);
+  -webkit-transform:rotate(120deg);
+  overflow:hidden;
+  visibility:hidden;
+  float:left;
+}
+
+.hexagon-inside{
+	width:100%;
+	height:100%;
+	background:green;
+	transform:rotate(-60deg);
+    -moz-transform:rotate(-60deg);
+    -ms-transform:rotate(-60deg);
+    -o-transform:rotate(-60deg);
+    -webkit-transform:rotate(-60deg);
+	overflow:hidden;
+}
+.hexagon-image{
+	width:100%;
+	height:100%;
+	background-image:url("../images/114060645.jpg");
+	background-position:center;
+	background-size:100% 120%;
+	transform:rotate(-60deg);
+    -moz-transform:rotate(-60deg);
+    -ms-transform:rotate(-60deg);
+    -o-transform:rotate(-60deg);
+    -webkit-transform:rotate(-60deg);
+	visibility:visible;
+	background-repeat:no-repeat;
+	-webkit-box-shadow: -1px 3px 5px -2px #000000; 
+	box-shadow: -1px 3px 5px -2px #000000;
+}
+.intro:after {
+  background: inherit;
+  bottom: 0;
+  content: '';
+  display: block;
+  height: 50%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  transform: skewY(-1.5deg);
+  transform-origin: 100%;
+  z-index: -1;
+}
+/* Change Autocomplete styles in Chrome*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.7) !important;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset !important;
+  transition: background-color 5000s ease-in-out 0s !important;
+}
+.middle{
+	margin-top:40px;
+}
+#about .non-visible{
+	visibility:hidden;
+}
+.result-error h4{
+	color:red;
+}
+.btn-mdl{
+	margin: 0 auto;
+    width: 288px;
+}
+.btn-row, .centered{
+	text-align: center;
+	margin:20px auto -10px auto;
+}
+#result, #result-error{
+	display:none;
+}
+.underline{
+	border-bottom:3px solid #b2b2b2;
+	margin-bottom:10px;
+}
+p.abt{
+	margin-left:165px;
+}
+@media only screen and (max-width:769px) {
+	.hexagon {
+	display: block;
+    margin: 10px auto;
+	float:none;
+	}
+	p.abt{
+		width:100%;
+		text-align:center;
+		margin-left:0;
+	}
+}
+@media only screen and (max-width:600px) {
+	.hexagon {
+	display: block;
+    margin: 10px auto;
+	float:none;
+	}
+	p.abt{
+		width:100%;
+		margin-left:0;
+	}
+}
+@media only screen and (max-width:400px) {
+	.hexagon {
+	display: block;
+    margin: 10px auto;
+	float:none;
+	}
+	p.abt{
+		width:100%;
+		margin-left:0;
+	}
+}
+
+.orbit-spinner, .orbit-spinner * {
+      box-sizing: border-box;
+    }
+
+
+
+    .orbit-spinner .orbit {
+      position: absolute;
+      box-sizing: border-box;
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+
+    .orbit-spinner .orbit:nth-child(1) {
+      left: 0%;
+      top: 0%;
+      animation: orbit-spinner-orbit-one-animation 1200ms linear infinite;
+      border-bottom: 3px solid #029ffd;
+    }
+
+    .orbit-spinner .orbit:nth-child(2) {
+      right: 0%;
+      top: 0%;
+      animation: orbit-spinner-orbit-two-animation 1200ms linear infinite;
+      border-right: 3px solid #029ffd;
+    }
+
+    .orbit-spinner .orbit:nth-child(3) {
+      right: 0%;
+      bottom: 0%;
+      animation: orbit-spinner-orbit-three-animation 1200ms linear infinite;
+      border-top: 3px solid #029ffd;
+    }
+
+    @keyframes orbit-spinner-orbit-one-animation {
+      0% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+      }
+      100% {
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+      }
+    }
+
+    @keyframes orbit-spinner-orbit-two-animation {
+      0% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+      }
+      100% {
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+      }
+    }
+
+    @keyframes orbit-spinner-orbit-three-animation {
+      0% {
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+      }
+      100% {
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+      }
+    }
+	.fadeElement { opacity: var(--o); }
+	textarea#input{
+		min-height: 83rem;
+		border: 2px solid #777;
+		font-family:"Arial";  
+		font-size: 14px;   
+	}

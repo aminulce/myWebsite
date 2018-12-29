@@ -1,0 +1,41 @@
+Flash Point Temperature
+289
+
+c
+
+Viscosity at 135c
+1.11
+
+
+Original DSR
+58 1.9
+64 0.96
+70 0.68
+
+
+RTFO DSR
+58 3.95
+
+64 2.71
+
+70 1.65
+
+
+PAV DSR 
+22 5150
+25 4126
+28 2112
+
+
+Creep Stiffness
+-6 216 0.375
+
+-12 453 0.322
+
+-18 688 0.279
+
+
+Direct tension
+-18 2.9
+
+-12 4.9
